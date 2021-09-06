@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Αναζήτηση</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+<link rel="icon" href="images\fav.png" type="image/x-icon">
+</head>
+<body>
+<div id="leo-main">
+<nav class="leo-nav">
+    <div class="leo-nav-inner">
+    <ul class="leo-hmenu">
+	<li><a href="home.html" class="">ΑΡΧΙΚΗ</a></li>
+	<li><a href="search.html" class="active">ΑΝΑΖΗΤΗΣΗ</a></li>
+	<li><a href="script.php" class="">ΤΟ ΠΡΟΦΙΛ ΜΟΥ</a></li>
+	<li><a href="contact-us.html" class="">ΕΠΙΚΟΙΝΩΝΙΑ</a></li> </ul>
+        </div>
+    </nav>
+<header class="leo-header">
+    <div class="leo-shapes">
+            </div>
+                 
+</header>
+<div class="leo-sheet clearfix">
+            <div class="leo-layout-wrapper">
+                <div class="leo-content-layout">
+                    <div class="leo-content-layout-row">
+                        <div class="leo-layout-cell leo-content"><article class="leo-post leo-article">
+                                <h2 class="leo-postheader">Αναζήτηση</h2>                                               
+                <div class="leo-postcontent leo-postcontent-0 clearfix"><p><br></p></div>
+<p>Βρείτε τον Μάστορα σας παρακάτω:</p><br><br>
+<FORM action="search.php" method="post">
+ Νομός:
+<input class="leo-nomos" list="Νομοί" name="region">
+  <datalist id="Νομοί" >
+    <option value="Σερρών">
+        <option value="Αττικής">
+    <option value="Θεσσαλονίκης">
+    <option value="Ημαθίας">
+    <option value=" Χανίων">
+  </datalist>
+   Πόλη:
+<input class="leo-edra" list="Πόλη" name="city">
+  <datalist id="Πόλη">
+    <option value="Σέρρες">
+    <option value="Αθήνα">
+    <option value="Θεσσαλονίκη">
+    <option value="Βέροια">
+    <option value=" Χανιά">
+  </datalist>
+Επάγγελμα:
+<INPUT class="leo-epaggelma" type="text" name="profession" size="30"> <INPUT type="submit" value="Αναζήτηση"> 
+</FORM>
+</article></div>
+                    </div>
+                </div>
+            </div><footer class="leo-footer">
+<hr style="border:none;background-color:#dedede;color:#dedede;height:1px; width: 850px">
+<br>
+<p>&nbsp;Copyright © 2017-2018. All Rights Reserved.</p>
+<br>
+<br>
+</footer>
+    </div>
+    <p class="leo-page-footer"> 
+    </p>
+</div>
+</body>
+</html>

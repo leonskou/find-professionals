@@ -1,0 +1,107 @@
+/* Created by leo v4.1.0.59861 */
+
+.leo-header, #leo-header-bg, .leo-layout-cell, .leo-layout-wrapper, .leo-footer, .leo-nav, #leo-hmenu-bg, .leo-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.leo-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.leo-hmenu>li, .leo-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.leo-hmenu, ul.leo-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#leo-hmenu-bg 
+{
+   display: none;
+}
+
+ul.leo-hmenu>li:first-child {
+   padding-right:5px;
+}
+
+ul.leo-hmenu ul{
+   background-color: #8C8C8C !important;
+}
+
+.leo-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#leo-header-bg 
+{
+   display: none;
+}
+
+.leo-content-layout, .leo-content-layout-row, .leo-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.leo-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.leo-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.leo-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.leo-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.leo-postheadericons span{
+   zoom: 1;
+}
+.leo-postcontent {
+   height: 1%;
+}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.leo-content 
+{
+   width: auto;
+   float:none;
+}
+

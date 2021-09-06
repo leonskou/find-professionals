@@ -1,0 +1,38 @@
+<html>
+<body>
+<head>
+  <meta charset="UTF-8">
+<title>Εγγραφή</title>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+
+<link rel="stylesheet" href="registerStyle.css" >
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<div class="container">
+      <form class="form-signin" action = "register.php" method="post">
+       <!-- <h2 class="form-signin-heading">Please Register</h2> -->
+        <div class="input-group">
+	  <input type="text" name="username" class="form-control" placeholder="Όνομα Χρήστη" required autofocus>
+	</div>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Διεύθυνση Email" required>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Κωδικός" required>
+        <label for="inputPasswordConfirm" class="sr-only">Password</label>
+        <input type="password" name="passwordConfirm" id="inputPasswordConfirm" class="form-control" placeholder="Επιβεβαίωση Κωδικού" require>
+		    <input type="text" name="region" id="Region" class="form-control" placeholder="Νομός" required>
+		    <input type="text" name="city" id="City" class="form-control" placeholder="Πόλη" required>
+		    <input type="text" name="profession" id="Profession" class="form-control" placeholder="Eπάγγελμα" required>
+		    <input type="text" name="tel" id="Tel" class="form-control" placeholder="Τηλέφωνο" required>
+        <button class="btn btn-primary btn-block btn-large" id="registerBtn" type="submit">Εγγραφή</button>
+        <A href="file:///C:/Users/leo/Desktop/v1/login.html"> <u> Έχετε λογαριασμό?  Είσοδος</u> </A>
+      </form>
+</div>
+<a href="home.html"><span class='pulse-button'>Αρχικη</span> </a>
+</body>
+</html>
